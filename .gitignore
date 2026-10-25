@@ -10,7 +10,7 @@ test_p1_rendered.png
 ~$*
 clean_slides/
 updated_slide_imgs/
-sih_assets/page_*.png
+project_assets/page_*.png
 
 # Large ML models & Datasets (>100MB blocked by GitHub)
 *.pkl

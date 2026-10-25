@@ -11,7 +11,7 @@ import "./App.css";
 import CFloodEWS from "./CFloodEWS";
 
 /* =========================================================
-   FLASHGUARD 10 CRITICAL MOUNTAIN CATCHMENTS (SIH26192)
+   DHARA 10 CRITICAL MOUNTAIN CATCHMENTS
    Enriched with High Alert Danger Zones & Designated Safe Havens
    ========================================================= */
 const ALL_INDIA_DATA = {
@@ -454,7 +454,7 @@ function getRealCityFacilities(city, state) {
 
 
 /* =========================================================
-   REAL MOUNTAIN UPSTREAM RESERVOIR & DAM HYDRODYNAMIC REGISTRY (SIH26192)
+   REAL MOUNTAIN UPSTREAM RESERVOIR & DAM HYDRODYNAMIC REGISTRY
    ========================================================= */
 const UPSTREAM_DAM_REGISTRY = {
   "kullu": {
@@ -1795,7 +1795,7 @@ export default function App() {
                 </div>
               </div>
 
-              {/* Mountain Region Selector Dropdown (SIH26192) */}
+              {/* Mountain Region Selector Dropdown */}
               <div className="location-browse-trigger" style={{ padding: "6px 14px" }}>
                 <span style={{ fontSize: "16px" }}>⛰️</span>
                 <select

@@ -2,7 +2,7 @@
 title DHARA - Flash Flood Intelligence Launcher
 echo ========================================================
 echo   DHARA - Flash Flood Intelligence Early Warning System
-echo   Team NexGen (SIH26192) - Ministry of Home Affairs / NDRF
+echo   Crisis Before Crisis - Ministry of Home Affairs / NDRF Division
 echo ========================================================
 echo.
 echo [1/2] Starting FastAPI ML Backend on http://localhost:8000 ...

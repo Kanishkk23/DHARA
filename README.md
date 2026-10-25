@@ -1,6 +1,6 @@
 # 🌊 धारा (DHARA) - National Hydrological Disaster & Mountain Flash Flood Early Warning System
 
-> **Problem Statement ID:** SIH26192  
+> **Initiative:** Crisis Before Crisis (IIITN)  
 > **Domain:** Disaster Management, Hydrological AI/ML & National Early Warning Systems  
 > **Key Agencies Integrated:** Central Water Commission (CWC), India Meteorological Department (IMD), National Disaster Management Authority (NDMA), State Disaster Management Authorities (SDMA), Copernicus GloFAS
 
@@ -58,9 +58,9 @@ dhara_project/
 │   ├── api.py                    # Predictive ML pipeline & Risk models
 │   ├── schemas.py                # Pydantic data validation contracts
 │   └── river_data.py             # CWC basin telemetry & station registry
-├── sih_assets/                   # Presentation graphics, icons, and diagrams
+├── project_assets/               # Presentation graphics, icons, and diagrams
 ├── DHARA_Judge_Master_Defense_Guide.html
-├── DHARA_SIH2026_Comprehensive_Defense_Report.pdf
+├── DHARA_Comprehensive_Defense_Report.html
 └── README.md
 `
 
@@ -102,4 +102,4 @@ The UI dashboard will launch at: http://localhost:5173
 ---
 
 ## 📜 License
-Developed for the **Smart India Hackathon (SIH 2026)**. All rights reserved.
+Developed for **Crisis Before Crisis (IIITN)**. All rights reserved.

@@ -498,7 +498,7 @@ export default function CFloodEWS({ onBackToDashboard, currentSelectedCity }) {
           </div>
         </div>
 
-        {/* BOTTOM RAPID MOUNTAIN FLASH FLOOD LEAD-TIME MONITOR (SIH26192) */}
+        {/* BOTTOM RAPID MOUNTAIN FLASH FLOOD LEAD-TIME MONITOR */}
         <div className="cflood-timeline-player">
           <div className="timeline-top-meta">
             <div className="timeline-timestamp-box" style={{ color: "#d4b996" }}>
@@ -550,7 +550,7 @@ export default function CFloodEWS({ onBackToDashboard, currentSelectedCity }) {
           </div>
 
           <div className="timeline-footer-caption" style={{ color: "#d4b996" }}>
-            Hydrodynamic mountain surge wave model (SIH26192) &middot; Manning velocity 4.8 m/s &middot; High Alert Danger Zones and Safe Havens Active.
+            Hydrodynamic mountain surge wave model &middot; Manning velocity 4.8 m/s &middot; High Alert Danger Zones and Safe Havens Active.
           </div>
         </div>
       </div>
