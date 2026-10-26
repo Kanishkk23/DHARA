@@ -894,7 +894,8 @@ function playOfficialEasSiren() {
 
 export default function App() {
   const [viewMode, setViewMode] = useState("COMMAND"); // "COMMAND" or "CFLOOD"
-  const currentTheme = "monsoon_dusk";
+  const currentTheme =
+    (typeof window !== "undefined" && new URLSearchParams(window.location.search).get("theme")) || "studio_ash_minimal";
   const [selectedState, setSelectedState] = useState("Himachal Pradesh");
   const [selectedCity, setSelectedCity] = useState(ALL_INDIA_DATA["Himachal Pradesh"][0]);
 
@@ -1299,17 +1300,16 @@ export default function App() {
     satelliteLayerRef.current = satLayer;
     hybridLayerRef.current = hybridLayer;
 
-    // Station Marker
+    // Station Marker (Clean GIS Pin - No Fake Animated Radar Glow)
     const radarIcon = L.divIcon({
       className: "custom-beacon",
       html: `
-        <div style="position: relative; width: 36px; height: 36px; display: grid; place-items: center;">
-          <div style="position: absolute; width: 36px; height: 36px; border-radius: 50%; background: rgba(14, 165, 233, 0.35); animation: radar-wave 2s infinite;"></div>
-          <div style="position: absolute; width: 14px; height: 14px; border-radius: 50%; background: #0ea5e9; border: 2.5px solid #fff; box-shadow: 0 0 12px #0ea5e9;"></div>
+        <div style="position: relative; width: 20px; height: 20px; display: grid; place-items: center;">
+          <div style="width: 12px; height: 12px; border-radius: 50%; background: #0284c7; border: 2px solid #ffffff; box-shadow: 0 1px 4px rgba(0,0,0,0.4);"></div>
         </div>
       `,
-      iconSize: [36, 36],
-      iconAnchor: [18, 18],
+      iconSize: [20, 20],
+      iconAnchor: [10, 10],
     });
 
     riskCenterRef.current = L.marker([selectedCity.lat, selectedCity.lng], { icon: radarIcon })
@@ -1919,9 +1919,6 @@ export default function App() {
                         stroke={currentRiskPercent >= 70 ? "#ef4444" : currentRiskPercent >= 45 ? "#f59e0b" : "#10b981"}
                         strokeDasharray="251.2"
                         strokeDashoffset={251.2 - (251.2 * currentRiskPercent) / 100}
-                        style={{
-                          filter: `drop-shadow(0 0 6px ${currentRiskPercent >= 70 ? "rgba(239, 68, 68, 0.6)" : currentRiskPercent >= 45 ? "rgba(245, 158, 11, 0.6)" : "rgba(16, 185, 129, 0.6)"})`
-                        }}
                       />
                     </svg>
                     <div className="gauge-center-content">
@@ -2068,9 +2065,8 @@ export default function App() {
                   Flash Flood Predictive Intelligence & Catchment Telemetry
                 </h2>
               </div>
-              <div style={{ display: "flex", alignItems: "center", gap: "8px", background: "rgba(14, 165, 233, 0.08)", border: "1px solid rgba(14, 165, 233, 0.25)", padding: "5px 12px", borderRadius: "var(--radius-pill)", fontSize: "11px", fontWeight: "750", color: "#0ea5e9" }}>
-                <span style={{ width: "6px", height: "6px", borderRadius: "50%", background: "#0ea5e9", display: "inline-block", animation: "pulse-dot 1.5s infinite" }}></span>
-                PHYSICS-INFORMED ML AUDIT
+              <div style={{ display: "flex", alignItems: "center", gap: "6px", border: "1px solid var(--glass-border)", padding: "4px 10px", borderRadius: "var(--radius-sm)", fontSize: "11px", fontWeight: "600", color: "var(--text-muted)" }}>
+                <span>VERIFIED SCIENTIFIC TELEMETRY</span>
               </div>
             </div>
 

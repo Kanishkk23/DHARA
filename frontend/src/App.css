@@ -19,7 +19,6 @@ html, body {
    Matte Charcoal & Space Gray Disaster Command Interface
    ========================================================= */
 
-:root,
 [data-theme="monsoon_dusk"] {
   /* =========================================================
      FLASHGUARD THEME 5: MONSOON DUSK & RIVER SILT
@@ -61,8 +60,7 @@ html, body {
   --radius-pill: 9999px;
 }
 
-[data-theme="monsoon_dusk"].app-shell,
-:root.app-shell {
+[data-theme="monsoon_dusk"].app-shell {
   background: 
     radial-gradient(circle at 85% 15%, rgba(212, 185, 150, 0.12), transparent 45%),
     radial-gradient(circle at 15% 85%, rgba(194, 94, 64, 0.09), transparent 45%),
@@ -288,6 +286,885 @@ html, body {
 
 [data-theme="space_black"].app-shell {
   background: #000000;
+}
+
+/* =========================================================
+   AUTHENTIC HUMAN DESIGN 1: GOVTECH CLEAN (National Hydrological Precision)
+   Pure light architectural off-white, zero black-and-neon, zero glowing borders
+   ========================================================= */
+[data-theme="govtech_clean"] {
+  --canvas: #f6f8fa;
+  --canvas-card: #ffffff;
+  --canvas-surface: #ffffff;
+  --canvas-surface-elevated: #f1f5f9;
+
+  --glass-bg: #ffffff;
+  --glass-bg-hover: #f8fafc;
+  --glass-border: #d0d7de;
+  --glass-border-hover: #afb8c1;
+  --glass-specular: none;
+  --glass-blur: none;
+  --glass-shadow: 0 1px 3px rgba(31, 35, 40, 0.08);
+
+  --text-primary: #1f2328;
+  --text-secondary: #424a53;
+  --text-muted: #656d76;
+
+  --accent-primary: #0969da;
+  --accent-emerald: #1a7f37;
+  --accent-amber: #9a6700;
+  --accent-crimson: #cf222e;
+
+  --btn-accent-bg: #1f2328;
+  --btn-accent-border: #1f2328;
+  --btn-accent-text: #ffffff;
+  --btn-accent-glow: none;
+
+  --radius-sm: 4px;
+  --radius-md: 6px;
+  --radius-lg: 8px;
+  --radius-xl: 10px;
+  --radius-pill: 6px;
+}
+
+[data-theme="govtech_clean"].app-shell {
+  background: #f6f8fa !important;
+  color: #1f2328 !important;
+}
+
+[data-theme="govtech_clean"] .titanium-panel,
+[data-theme="govtech_clean"] .aiml-engine-panel,
+[data-theme="govtech_clean"] .telemetry-block,
+[data-theme="govtech_clean"] .env-factor-card,
+[data-theme="govtech_clean"] .aiml-pillar-box {
+  background: #ffffff !important;
+  border: 1px solid #d0d7de !important;
+  border-radius: 6px !important;
+  box-shadow: 0 1px 3px rgba(31, 35, 40, 0.06) !important;
+  color: #1f2328 !important;
+}
+
+[data-theme="govtech_clean"] .dhara-logo-mark {
+  background: #1f2328 !important;
+  color: #ffffff !important;
+  border: 1px solid #1f2328 !important;
+  border-radius: 4px !important;
+  box-shadow: none !important;
+}
+
+[data-theme="govtech_clean"] .location-browse-trigger,
+[data-theme="govtech_clean"] .refresh-btn,
+[data-theme="govtech_clean"] .refresh-action-btn,
+[data-theme="govtech_clean"] .theme-compact-badge {
+  background: #ffffff !important;
+  border: 1px solid #d0d7de !important;
+  color: #1f2328 !important;
+  border-radius: 6px !important;
+  box-shadow: none !important;
+}
+
+[data-theme="govtech_clean"] .location-browse-trigger strong {
+  color: #1f2328 !important;
+}
+
+[data-theme="govtech_clean"] .theme-accent-btn {
+  background: #1f2328 !important;
+  color: #ffffff !important;
+  border-color: #1f2328 !important;
+  border-radius: 6px !important;
+  box-shadow: none !important;
+}
+
+[data-theme="govtech_clean"] .theme-accent-btn:hover {
+  background: #24292f !important;
+}
+
+[data-theme="govtech_clean"] .live-status-badge {
+  background: #f0fdf4 !important;
+  border: 1px solid #bbf7d0 !important;
+  color: #166534 !important;
+  border-radius: 4px !important;
+}
+
+[data-theme="govtech_clean"] .live-status-badge .live-badge-text,
+[data-theme="govtech_clean"] .live-status-badge .live-badge-interval {
+  color: #166534 !important;
+}
+
+[data-theme="govtech_clean"] .live-status-badge .live-badge-time {
+  color: #1f2328 !important;
+}
+
+[data-theme="govtech_clean"] .telemetry-block .value {
+  color: #1f2328 !important;
+}
+
+[data-theme="govtech_clean"] .env-factor-value {
+  color: #1f2328 !important;
+}
+
+[data-theme="govtech_clean"] .pillar-badge-title {
+  color: #0969da !important;
+}
+
+[data-theme="govtech_clean"] .pillar-desc-text {
+  color: #424a53 !important;
+}
+
+[data-theme="govtech_clean"] .map-mode-btn {
+  background: #ffffff !important;
+  color: #424a53 !important;
+  border: 1px solid #d0d7de !important;
+  border-radius: 4px !important;
+}
+
+[data-theme="govtech_clean"] .map-mode-btn.active {
+  background: #1f2328 !important;
+  color: #ffffff !important;
+  border-color: #1f2328 !important;
+}
+
+[data-theme="govtech_clean"] .map-floating-legend {
+  background: rgba(255, 255, 255, 0.95) !important;
+  border: 1px solid #d0d7de !important;
+  color: #1f2328 !important;
+  box-shadow: 0 1px 4px rgba(31, 35, 40, 0.08) !important;
+}
+
+/* =========================================================
+   AUTHENTIC HUMAN DESIGN 2: STUDIO ASH MINIMAL (Neutral Mid-Gray)
+   Subdued studio ash, NOT pitch-black, zero neon, zero glowing borders
+   ========================================================= */
+:root,
+[data-theme="studio_ash_minimal"] {
+  --canvas: #202328;
+  --canvas-card: #282c34;
+  --canvas-surface: #2d313b;
+  --canvas-surface-elevated: #353a45;
+
+  --glass-bg: #282c34;
+  --glass-bg-hover: #323742;
+  --glass-border: #3d4350;
+  --glass-border-hover: #525a6b;
+  --glass-specular: none;
+  --glass-blur: none;
+  --glass-shadow: 0 2px 8px rgba(0, 0, 0, 0.35);
+
+  --text-primary: #f3f4f6;
+  --text-secondary: #9ca3af;
+  --text-muted: #6b7280;
+
+  --accent-primary: #ea580c;
+  --accent-emerald: #16a34a;
+  --accent-amber: #d97706;
+  --accent-crimson: #dc2626;
+
+  --btn-accent-bg: #ea580c;
+  --btn-accent-border: #ea580c;
+  --btn-accent-text: #ffffff;
+  --btn-accent-glow: none;
+
+  --radius-sm: 4px;
+  --radius-md: 6px;
+  --radius-lg: 8px;
+  --radius-xl: 10px;
+  --radius-pill: 6px;
+}
+
+:root.app-shell,
+[data-theme="studio_ash_minimal"].app-shell {
+  background: #202328 !important;
+  color: #f3f4f6 !important;
+}
+
+[data-theme="studio_ash_minimal"] .titanium-panel,
+[data-theme="studio_ash_minimal"] .aiml-engine-panel,
+[data-theme="studio_ash_minimal"] .telemetry-block,
+[data-theme="studio_ash_minimal"] .env-factor-card,
+[data-theme="studio_ash_minimal"] .aiml-pillar-box {
+  background: #282c34 !important;
+  border: 1px solid #3d4350 !important;
+  border-radius: 6px !important;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.25) !important;
+  color: #f3f4f6 !important;
+}
+
+[data-theme="studio_ash_minimal"] .dhara-logo-mark {
+  background: #ea580c !important;
+  color: #ffffff !important;
+  border: 1px solid #ea580c !important;
+  border-radius: 4px !important;
+}
+
+[data-theme="studio_ash_minimal"] .location-browse-trigger,
+[data-theme="studio_ash_minimal"] .refresh-btn,
+[data-theme="studio_ash_minimal"] .refresh-action-btn,
+[data-theme="studio_ash_minimal"] .theme-compact-badge {
+  background: #282c34 !important;
+  border: 1px solid #3d4350 !important;
+  color: #f3f4f6 !important;
+  border-radius: 6px !important;
+}
+
+[data-theme="studio_ash_minimal"] .location-browse-trigger strong {
+  color: #f3f4f6 !important;
+}
+
+[data-theme="studio_ash_minimal"] .theme-accent-btn {
+  background: #ea580c !important;
+  color: #ffffff !important;
+  border-color: #ea580c !important;
+  border-radius: 6px !important;
+}
+
+/* =========================================================
+   AUTHENTIC HUMAN DESIGN 3: SWISS EDITORIAL MONOCHROME
+   Josef Müller-Brockmann high-contrast typography, 0 neon, razor lines
+   ========================================================= */
+[data-theme="swiss_monochrome"] {
+  --canvas: #ffffff;
+  --canvas-card: #ffffff;
+  --canvas-surface: #f7f7f8;
+  --canvas-surface-elevated: #efefef;
+
+  --glass-bg: #ffffff;
+  --glass-bg-hover: #f3f3f3;
+  --glass-border: #111111;
+  --glass-border-hover: #000000;
+  --glass-specular: none;
+  --glass-blur: none;
+  --glass-shadow: none;
+
+  --text-primary: #000000;
+  --text-secondary: #262626;
+  --text-muted: #525252;
+
+  --accent-primary: #000000;
+  --accent-emerald: #15803d;
+  --accent-amber: #b45309;
+  --accent-crimson: #b91c1c;
+
+  --btn-accent-bg: #000000;
+  --btn-accent-border: #000000;
+  --btn-accent-text: #ffffff;
+  --btn-accent-glow: none;
+
+  --radius-sm: 2px;
+  --radius-md: 4px;
+  --radius-lg: 4px;
+  --radius-xl: 6px;
+  --radius-pill: 4px;
+}
+
+[data-theme="swiss_monochrome"].app-shell {
+  background: #ffffff !important;
+  color: #000000 !important;
+}
+
+[data-theme="swiss_monochrome"] .titanium-panel,
+[data-theme="swiss_monochrome"] .aiml-engine-panel,
+[data-theme="swiss_monochrome"] .telemetry-block,
+[data-theme="swiss_monochrome"] .env-factor-card,
+[data-theme="swiss_monochrome"] .aiml-pillar-box {
+  background: #ffffff !important;
+  border: 1.5px solid #111111 !important;
+  border-radius: 4px !important;
+  box-shadow: none !important;
+  color: #000000 !important;
+}
+
+[data-theme="swiss_monochrome"] .dhara-logo-mark {
+  background: #000000 !important;
+  color: #ffffff !important;
+  border: 1px solid #000000 !important;
+  border-radius: 2px !important;
+}
+
+[data-theme="swiss_monochrome"] .location-browse-trigger,
+[data-theme="swiss_monochrome"] .refresh-btn,
+[data-theme="swiss_monochrome"] .refresh-action-btn,
+[data-theme="swiss_monochrome"] .theme-compact-badge {
+  background: #ffffff !important;
+  border: 1.5px solid #111111 !important;
+  color: #000000 !important;
+  border-radius: 4px !important;
+}
+
+[data-theme="swiss_monochrome"] .location-browse-trigger strong {
+  color: #000000 !important;
+}
+
+[data-theme="swiss_monochrome"] .theme-accent-btn {
+  background: #000000 !important;
+  color: #ffffff !important;
+  border-color: #000000 !important;
+  border-radius: 4px !important;
+}
+
+[data-theme="swiss_monochrome"] .live-status-badge {
+  background: #ffffff !important;
+  border: 1.5px solid #111111 !important;
+  color: #000000 !important;
+  border-radius: 4px !important;
+}
+
+[data-theme="swiss_monochrome"] .telemetry-block .value,
+[data-theme="swiss_monochrome"] .env-factor-value {
+  color: #000000 !important;
+}
+
+[data-theme="swiss_monochrome"] .map-mode-btn {
+  background: #ffffff !important;
+  color: #111111 !important;
+  border: 1px solid #111111 !important;
+  border-radius: 2px !important;
+}
+
+[data-theme="swiss_monochrome"] .map-mode-btn.active {
+  background: #111111 !important;
+  color: #ffffff !important;
+  border-color: #111111 !important;
+}
+
+[data-theme="swiss_monochrome"] .map-floating-legend {
+  background: #ffffff !important;
+  border: 1.5px solid #111111 !important;
+  color: #000000 !important;
+  box-shadow: none !important;
+}
+
+/* =========================================================
+   NEW DESIGN 1: LINEAR OBSIDIAN (Zero-AI-Smell Minimalist)
+   Pure matte dark, razor hairlines, stark typography, zero ambient glow
+   ========================================================= */
+[data-theme="linear_minimal"] {
+  --canvas: #090a0f;
+  --canvas-card: #111317;
+  --canvas-surface: #15181e;
+  --canvas-surface-elevated: #1b1e26;
+
+  --glass-bg: #111317;
+  --glass-bg-hover: #171a21;
+  --glass-border: rgba(255, 255, 255, 0.08);
+  --glass-border-hover: rgba(255, 255, 255, 0.18);
+  --glass-specular: none;
+  --glass-blur: none;
+  --glass-shadow: 0 1px 3px rgba(0, 0, 0, 0.6), 0 10px 30px rgba(0, 0, 0, 0.4);
+
+  --text-primary: #ffffff;
+  --text-secondary: #94a3b8;
+  --text-muted: #64748b;
+
+  --accent-primary: #ffffff;
+  --accent-emerald: #10b981;
+  --accent-amber: #f59e0b;
+  --accent-crimson: #ef4444;
+
+  --btn-accent-bg: #ffffff;
+  --btn-accent-border: #ffffff;
+  --btn-accent-text: #090a0f;
+  --btn-accent-glow: none;
+
+  --radius-sm: 6px;
+  --radius-md: 10px;
+  --radius-lg: 14px;
+  --radius-xl: 18px;
+  --radius-pill: 9999px;
+}
+
+[data-theme="linear_minimal"].app-shell {
+  background: #090a0f !important;
+  color: #ffffff !important;
+}
+
+[data-theme="linear_minimal"] .dhara-logo-mark {
+  background: #ffffff !important;
+  color: #090a0f !important;
+  border: 1px solid #ffffff !important;
+  box-shadow: 0 2px 8px rgba(255, 255, 255, 0.1) !important;
+}
+
+[data-theme="linear_minimal"] .location-browse-trigger,
+[data-theme="linear_minimal"] .refresh-btn,
+[data-theme="linear_minimal"] .refresh-action-btn,
+[data-theme="linear_minimal"] .theme-compact-badge {
+  background: #111317 !important;
+  border: 1px solid rgba(255, 255, 255, 0.08) !important;
+  color: #ffffff !important;
+  box-shadow: none !important;
+}
+
+[data-theme="linear_minimal"] .location-browse-trigger:hover,
+[data-theme="linear_minimal"] .refresh-btn:hover,
+[data-theme="linear_minimal"] .refresh-action-btn:hover,
+[data-theme="linear_minimal"] .theme-compact-badge:hover {
+  background: #171a21 !important;
+  border-color: rgba(255, 255, 255, 0.18) !important;
+}
+
+[data-theme="linear_minimal"] .location-browse-trigger strong {
+  color: #ffffff !important;
+}
+
+[data-theme="linear_minimal"] .theme-accent-btn {
+  background: #ffffff !important;
+  color: #090a0f !important;
+  border-color: #ffffff !important;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.4) !important;
+}
+
+[data-theme="linear_minimal"] .theme-accent-btn:hover {
+  background: #e2e8f0 !important;
+  border-color: #e2e8f0 !important;
+}
+
+/* =========================================================
+   NEW DESIGN 2: SWISS INDUSTRIAL (Dieter Rams / Braun Functional Minimal)
+   Neutral graphite, 1px micro-groove borders, single International Orange accent
+   ========================================================= */
+[data-theme="swiss_industrial"] {
+  --canvas: #121214;
+  --canvas-card: #19191c;
+  --canvas-surface: #1f1f23;
+  --canvas-surface-elevated: #26262b;
+
+  --glass-bg: #19191c;
+  --glass-bg-hover: #222226;
+  --glass-border: #282a30;
+  --glass-border-hover: #3d4049;
+  --glass-specular: none;
+  --glass-blur: none;
+  --glass-shadow: 0 2px 8px rgba(0, 0, 0, 0.6);
+
+  --text-primary: #f4f4f5;
+  --text-secondary: #a1a1aa;
+  --text-muted: #71717a;
+
+  --accent-primary: #ea580c;
+  --accent-emerald: #16a34a;
+  --accent-amber: #d97706;
+  --accent-crimson: #dc2626;
+
+  --btn-accent-bg: #ea580c;
+  --btn-accent-border: #ea580c;
+  --btn-accent-text: #ffffff;
+  --btn-accent-glow: none;
+
+  --radius-sm: 4px;
+  --radius-md: 8px;
+  --radius-lg: 12px;
+  --radius-xl: 16px;
+  --radius-pill: 6px;
+}
+
+[data-theme="swiss_industrial"].app-shell {
+  background: #121214 !important;
+  color: #f4f4f5 !important;
+}
+
+[data-theme="swiss_industrial"] .dhara-logo-mark {
+  background: #ea580c !important;
+  color: #ffffff !important;
+  border: 1px solid #ea580c !important;
+  border-radius: 6px !important;
+  box-shadow: 0 2px 8px rgba(234, 88, 12, 0.25) !important;
+}
+
+[data-theme="swiss_industrial"] .location-browse-trigger,
+[data-theme="swiss_industrial"] .refresh-btn,
+[data-theme="swiss_industrial"] .refresh-action-btn,
+[data-theme="swiss_industrial"] .theme-compact-badge {
+  background: #19191c !important;
+  border: 1px solid #282a30 !important;
+  color: #f4f4f5 !important;
+  border-radius: 6px !important;
+  box-shadow: none !important;
+}
+
+[data-theme="swiss_industrial"] .location-browse-trigger:hover,
+[data-theme="swiss_industrial"] .refresh-btn:hover,
+[data-theme="swiss_industrial"] .refresh-action-btn:hover,
+[data-theme="swiss_industrial"] .theme-compact-badge:hover {
+  background: #222226 !important;
+  border-color: #3d4049 !important;
+}
+
+[data-theme="swiss_industrial"] .location-browse-trigger strong {
+  color: #f4f4f5 !important;
+}
+
+[data-theme="swiss_industrial"] .theme-accent-btn {
+  background: #ea580c !important;
+  color: #ffffff !important;
+  border-color: #ea580c !important;
+  border-radius: 6px !important;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.5) !important;
+}
+
+[data-theme="swiss_industrial"] .theme-accent-btn:hover {
+  background: #c2410c !important;
+  border-color: #c2410c !important;
+}
+
+/* =========================================================
+   NEW DESIGN 3: STRIPE SLATE (Financial Terminal / Mission Critical)
+   Deep navy slate, clinical structure, ice telemetry, 0 decorative glow
+   ========================================================= */
+[data-theme="stripe_slate"] {
+  --canvas: #090d16;
+  --canvas-card: #101726;
+  --canvas-surface: #141d30;
+  --canvas-surface-elevated: #1a253c;
+
+  --glass-bg: #101726;
+  --glass-bg-hover: #162035;
+  --glass-border: #1e293b;
+  --glass-border-hover: #334155;
+  --glass-specular: none;
+  --glass-blur: none;
+  --glass-shadow: 0 4px 20px rgba(0, 0, 0, 0.7);
+
+  --text-primary: #f8fafc;
+  --text-secondary: #94a3b8;
+  --text-muted: #64748b;
+
+  --accent-primary: #38bdf8;
+  --accent-emerald: #10b981;
+  --accent-amber: #f59e0b;
+  --accent-crimson: #f43f5e;
+
+  --btn-accent-bg: #0284c7;
+  --btn-accent-border: #0284c7;
+  --btn-accent-text: #ffffff;
+  --btn-accent-glow: none;
+
+  --radius-sm: 6px;
+  --radius-md: 10px;
+  --radius-lg: 14px;
+  --radius-xl: 18px;
+  --radius-pill: 9999px;
+}
+
+[data-theme="stripe_slate"].app-shell {
+  background: #090d16 !important;
+  color: #f8fafc !important;
+}
+
+[data-theme="stripe_slate"] .dhara-logo-mark {
+  background: #0284c7 !important;
+  color: #ffffff !important;
+  border: 1px solid #0284c7 !important;
+  box-shadow: 0 2px 8px rgba(2, 132, 199, 0.25) !important;
+}
+
+[data-theme="stripe_slate"] .location-browse-trigger,
+[data-theme="stripe_slate"] .refresh-btn,
+[data-theme="stripe_slate"] .refresh-action-btn,
+[data-theme="stripe_slate"] .theme-compact-badge {
+  background: #101726 !important;
+  border: 1px solid #1e293b !important;
+  color: #f8fafc !important;
+  box-shadow: none !important;
+}
+
+[data-theme="stripe_slate"] .location-browse-trigger:hover,
+[data-theme="stripe_slate"] .refresh-btn:hover,
+[data-theme="stripe_slate"] .refresh-action-btn:hover,
+[data-theme="stripe_slate"] .theme-compact-badge:hover {
+  background: #162035 !important;
+  border-color: #334155 !important;
+}
+
+[data-theme="stripe_slate"] .location-browse-trigger strong {
+  color: #f8fafc !important;
+}
+
+[data-theme="stripe_slate"] .theme-accent-btn {
+  background: #0284c7 !important;
+  color: #ffffff !important;
+  border-color: #0284c7 !important;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.4) !important;
+}
+
+[data-theme="stripe_slate"] .theme-accent-btn:hover {
+  background: #0369a1 !important;
+  border-color: #0369a1 !important;
+}
+
+/* =========================================================
+   NEW DESIGN 4: MONOCLE ARCHIVAL (Warm Basalt & Editorial Sand)
+   Warm tactile luxury, linen sand, deep peat soot, serene & un-AI
+   ========================================================= */
+[data-theme="monocle_archival"] {
+  --canvas: #141312;
+  --canvas-card: #1b1918;
+  --canvas-surface: #22201e;
+  --canvas-surface-elevated: #2a2725;
+
+  --glass-bg: #1b1918;
+  --glass-bg-hover: #242220;
+  --glass-border: rgba(214, 195, 170, 0.13);
+  --glass-border-hover: rgba(214, 195, 170, 0.28);
+  --glass-specular: none;
+  --glass-blur: none;
+  --glass-shadow: 0 4px 20px rgba(0, 0, 0, 0.65);
+
+  --text-primary: #f7f4ee;
+  --text-secondary: #c8bea9;
+  --text-muted: #8c8275;
+
+  --accent-primary: #d4b996;
+  --accent-emerald: #10b981;
+  --accent-amber: #d97706;
+  --accent-crimson: #c25e40;
+
+  --btn-accent-bg: #d4b996;
+  --btn-accent-border: #d4b996;
+  --btn-accent-text: #141312;
+  --btn-accent-glow: none;
+
+  --radius-sm: 8px;
+  --radius-md: 12px;
+  --radius-lg: 16px;
+  --radius-xl: 22px;
+  --radius-pill: 9999px;
+}
+
+[data-theme="monocle_archival"].app-shell {
+  background: #141312 !important;
+  color: #f7f4ee !important;
+}
+
+[data-theme="monocle_archival"] .dhara-logo-mark {
+  background: #d4b996 !important;
+  color: #141312 !important;
+  border: 1px solid #d4b996 !important;
+  box-shadow: 0 2px 8px rgba(212, 185, 150, 0.2) !important;
+}
+
+[data-theme="monocle_archival"] .location-browse-trigger,
+[data-theme="monocle_archival"] .refresh-btn,
+[data-theme="monocle_archival"] .refresh-action-btn,
+[data-theme="monocle_archival"] .theme-compact-badge {
+  background: #1b1918 !important;
+  border: 1px solid rgba(214, 195, 170, 0.13) !important;
+  color: #f7f4ee !important;
+  box-shadow: none !important;
+}
+
+[data-theme="monocle_archival"] .location-browse-trigger:hover,
+[data-theme="monocle_archival"] .refresh-btn:hover,
+[data-theme="monocle_archival"] .refresh-action-btn:hover,
+[data-theme="monocle_archival"] .theme-compact-badge:hover {
+  background: #242220 !important;
+  border-color: rgba(214, 195, 170, 0.28) !important;
+}
+
+[data-theme="monocle_archival"] .location-browse-trigger strong {
+  color: #f7f4ee !important;
+}
+
+[data-theme="monocle_archival"] .theme-accent-btn {
+  background: #d4b996 !important;
+  color: #141312 !important;
+  border-color: #d4b996 !important;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.4) !important;
+}
+
+[data-theme="monocle_archival"] .theme-accent-btn:hover {
+  background: #c2a884 !important;
+  border-color: #c2a884 !important;
+}
+
+/* =========================================================
+   VARIATION 6A: SPACE BLACK · iOS 18 FROSTED GLASSMORPHISM
+   ========================================================= */
+[data-theme="space_black_glass"] {
+  --canvas: #000000;
+  --canvas-card: rgba(18, 18, 22, 0.72);
+  --canvas-surface: rgba(28, 28, 35, 0.75);
+  --canvas-surface-elevated: rgba(38, 38, 48, 0.85);
+
+  --glass-bg: rgba(22, 22, 28, 0.65);
+  --glass-bg-hover: rgba(32, 32, 42, 0.8);
+  --glass-border: rgba(255, 255, 255, 0.14);
+  --glass-border-hover: rgba(255, 255, 255, 0.35);
+  --glass-specular: inset 0 1px 0 0 rgba(255, 255, 255, 0.22);
+  --glass-blur: blur(24px);
+  --glass-shadow: 0 20px 50px rgba(0, 0, 0, 0.85);
+
+  --text-primary: #ffffff;
+  --text-secondary: #cbd5e1;
+  --text-muted: #64748b;
+
+  --accent-primary: #38bdf8;
+  --accent-emerald: #10b981;
+  --accent-amber: #f59e0b;
+  --accent-crimson: #ef4444;
+
+  --btn-accent-bg: rgba(56, 189, 248, 0.16);
+  --btn-accent-border: rgba(56, 189, 248, 0.4);
+  --btn-accent-text: #ffffff;
+  --btn-accent-glow: rgba(56, 189, 248, 0.3);
+}
+
+[data-theme="space_black_glass"].app-shell {
+  background: 
+    radial-gradient(circle at 50% -10%, rgba(56, 189, 248, 0.08), transparent 50%),
+    radial-gradient(circle at 100% 100%, rgba(16, 185, 129, 0.05), transparent 40%),
+    #000000;
+}
+
+/* =========================================================
+   VARIATION 6B: SPACE BLACK · ELECTRIC COBALT / MISSION CONTROL
+   ========================================================= */
+[data-theme="space_black_cobalt"] {
+  --canvas: #02040a;
+  --canvas-card: rgba(8, 14, 26, 0.95);
+  --canvas-surface: #0b1324;
+  --canvas-surface-elevated: #101c36;
+
+  --glass-bg: #0a1122;
+  --glass-bg-hover: #111e3b;
+  --glass-border: rgba(56, 189, 248, 0.22);
+  --glass-border-hover: rgba(56, 189, 248, 0.5);
+  --glass-specular: inset 0 1px 0 0 rgba(125, 211, 252, 0.25);
+  --glass-blur: none;
+  --glass-shadow: 0 18px 50px rgba(0, 0, 0, 0.9);
+
+  --text-primary: #f0f9ff;
+  --text-secondary: #93c5fd;
+  --text-muted: #475569;
+
+  --accent-primary: #0284c7;
+  --accent-emerald: #10b981;
+  --accent-amber: #f59e0b;
+  --accent-crimson: #ef4444;
+
+  --btn-accent-bg: rgba(2, 132, 199, 0.2);
+  --btn-accent-border: rgba(56, 189, 248, 0.45);
+  --btn-accent-text: #f0f9ff;
+  --btn-accent-glow: rgba(2, 132, 199, 0.4);
+}
+
+[data-theme="space_black_cobalt"].app-shell {
+  background: 
+    radial-gradient(circle at 50% 0%, rgba(2, 132, 199, 0.12), transparent 60%),
+    #02040a;
+}
+
+/* =========================================================
+   VARIATION 6C: SPACE BLACK · TACTICAL CYBER EMERALD
+   ========================================================= */
+[data-theme="space_black_emerald"] {
+  --canvas: #020704;
+  --canvas-card: rgba(6, 18, 12, 0.95);
+  --canvas-surface: #0a2216;
+  --canvas-surface-elevated: #0f3020;
+
+  --glass-bg: #081d13;
+  --glass-bg-hover: #0e2d1e;
+  --glass-border: rgba(16, 185, 129, 0.25);
+  --glass-border-hover: rgba(52, 211, 153, 0.55);
+  --glass-specular: inset 0 1px 0 0 rgba(110, 231, 183, 0.28);
+  --glass-blur: none;
+  --glass-shadow: 0 18px 50px rgba(0, 0, 0, 0.9);
+
+  --text-primary: #ecfdf5;
+  --text-secondary: #a7f3d0;
+  --text-muted: #3f6251;
+
+  --accent-primary: #10b981;
+  --accent-emerald: #34d399;
+  --accent-amber: #fbbf24;
+  --accent-crimson: #f87171;
+
+  --btn-accent-bg: rgba(16, 185, 129, 0.2);
+  --btn-accent-border: rgba(52, 211, 153, 0.45);
+  --btn-accent-text: #ecfdf5;
+  --btn-accent-glow: rgba(16, 185, 129, 0.4);
+}
+
+[data-theme="space_black_emerald"].app-shell {
+  background: 
+    radial-gradient(circle at 50% 0%, rgba(16, 185, 129, 0.1), transparent 60%),
+    #020704;
+}
+
+/* =========================================================
+   VARIATION 6D: SPACE BLACK · SOLAR AMBER / MOLTEN GOLD
+   ========================================================= */
+[data-theme="space_black_amber"] {
+  --canvas: #080503;
+  --canvas-card: rgba(22, 15, 8, 0.95);
+  --canvas-surface: #20150b;
+  --canvas-surface-elevated: #2e1e0f;
+
+  --glass-bg: #1c130a;
+  --glass-bg-hover: #291c0e;
+  --glass-border: rgba(245, 158, 11, 0.24);
+  --glass-border-hover: rgba(251, 191, 36, 0.55);
+  --glass-specular: inset 0 1px 0 0 rgba(253, 230, 138, 0.25);
+  --glass-blur: none;
+  --glass-shadow: 0 18px 50px rgba(0, 0, 0, 0.9);
+
+  --text-primary: #fffbeb;
+  --text-secondary: #fde68a;
+  --text-muted: #785328;
+
+  --accent-primary: #f59e0b;
+  --accent-emerald: #10b981;
+  --accent-amber: #fbbf24;
+  --accent-crimson: #ef4444;
+
+  --btn-accent-bg: rgba(245, 158, 11, 0.2);
+  --btn-accent-border: rgba(251, 191, 36, 0.45);
+  --btn-accent-text: #fffbeb;
+  --btn-accent-glow: rgba(245, 158, 11, 0.4);
+}
+
+[data-theme="space_black_amber"].app-shell {
+  background: 
+    radial-gradient(circle at 50% 0%, rgba(245, 158, 11, 0.12), transparent 60%),
+    #080503;
+}
+
+/* =========================================================
+   VARIATION 6E: SPACE BLACK · STUDIO CARBON (Linear / Raycast)
+   ========================================================= */
+[data-theme="space_black_carbon"] {
+  --canvas: #09090b;
+  --canvas-card: rgba(18, 18, 21, 0.96);
+  --canvas-surface: #18181b;
+  --canvas-surface-elevated: #27272a;
+
+  --glass-bg: #141416;
+  --glass-bg-hover: #1f1f23;
+  --glass-border: rgba(255, 255, 255, 0.08);
+  --glass-border-hover: rgba(255, 255, 255, 0.22);
+  --glass-specular: inset 0 1px 0 0 rgba(255, 255, 255, 0.1);
+  --glass-blur: none;
+  --glass-shadow: 0 18px 50px rgba(0, 0, 0, 0.9);
+
+  --text-primary: #fafafa;
+  --text-secondary: #a1a1aa;
+  --text-muted: #52525b;
+
+  --accent-primary: #6366f1;
+  --accent-emerald: #10b981;
+  --accent-amber: #f59e0b;
+  --accent-crimson: #ef4444;
+
+  --btn-accent-bg: rgba(99, 102, 241, 0.18);
+  --btn-accent-border: rgba(129, 140, 248, 0.4);
+  --btn-accent-text: #fafafa;
+  --btn-accent-glow: rgba(99, 102, 241, 0.3);
+}
+
+[data-theme="space_black_carbon"].app-shell {
+  background: 
+    radial-gradient(circle at 50% 0%, rgba(99, 102, 241, 0.07), transparent 60%),
+    #09090b;
 }
 
 /* =========================================================
