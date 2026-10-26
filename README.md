@@ -96,6 +96,21 @@ The UI dashboard will launch at: http://localhost:5173
 
 ---
 
+## 🌐 Deploy to Vercel (1-Click)
+
+Deploy the live DHARA dashboard directly to Vercel with zero configuration:
+
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/Kanishkk23/IIITN-crisis-before-crisis)
+
+**Automatic Vercel Build Configuration**:
+- **Framework Preset**: Vite
+- **Root Directory**: ./ (or rontend)
+- **Build Command**: 
+pm run build
+- **Output Directory**: rontend/dist (or dist)
+
+---
+
 ## 👥 Authors & Team
 - **GitHub**: [@Kanishkk23](https://github.com/Kanishkk23)
 
